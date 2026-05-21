@@ -55,16 +55,16 @@ public class activity_signup extends AppCompatActivity {
         }
 
 
-        // ربط العناصر
+
         ivBack = findViewById(R.id.iv_back);
         btnRegister = findViewById(R.id.btn_register);
         tvSignIn = findViewById(R.id.tv_sign_in);
 
-        // برمجة زر الرجوع (السهم)
+
         ivBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish(); // يقفل هذي الشاشة ويرجعك للوقن
+                finish();  
             }
         });
 
@@ -72,7 +72,7 @@ public class activity_signup extends AppCompatActivity {
         tvSignIn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish(); // يقفل هذي الشاشة ويرجعك للوقن
+                finish(); 
             }
         });
 
