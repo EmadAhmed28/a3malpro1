@@ -51,7 +51,7 @@ public class MainActivity2 extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                login(v); // استدعاء دالة الدكتور
+                login(v);  
             }
         });
 
@@ -59,7 +59,7 @@ public class MainActivity2 extends AppCompatActivity {
         tvSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // تأكد أن اسم كلاس التسجيل عندك هو SignUpActivity أو activity_signup
+
                 Intent intent = new Intent(MainActivity2.this, activity_signup.class);
                 startActivity(intent);
             }
