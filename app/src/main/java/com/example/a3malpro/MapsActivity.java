@@ -1,4 +1,4 @@
-package com.example.a3malpro; // تأكد من اسم البكج حقك
+package com.example.a3malpro; 
 
 import androidx.fragment.app.FragmentActivity;
 import android.os.Bundle;
